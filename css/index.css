@@ -1,0 +1,230 @@
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.w3_hny_header {
+    padding: 40px 0px 20px 0px;
+}
+
+
+
+h1 a.logo-brand {
+    font-size: 36px;
+    text-decoration: none;
+    color: rgb(202, 37, 37);
+}
+
+.search {
+    position: relative;
+}
+
+.w3menu-right-content .search-bar .search .search__input {
+    padding: 10px 60px 10px 30px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.w3menu-right-content .search-bar .search .search__icon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.w3menu-right-content {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 5px;
+
+
+}
+
+
+
+
+.dark #switchButton .fa-moon {
+    display: none;
+}
+
+#myBody {
+    background-color: white;
+}
+
+#switchButton {
+    /* background-color: white;
+    border: 1px solid black; */
+    margin-left: 4px;
+
+}
+
+#switchButton .fa-sun {
+    display: none;
+    font-size: 18px;
+}
+
+#switchButton .fa-moon {
+    display: block;
+    font-size: 31px;
+    color: white;
+}
+
+.dark#myBody {
+    background-color: black;
+
+}
+
+.dark input#search,
+.dark#search {
+    background-color: black;
+    color: rgb(236, 229, 229);
+    border-radius: 5px;
+}
+
+.dark#switchButton {
+    background-color: black;
+    border: 1px solid white;
+
+}
+
+.dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+
+}
+
+.dark #switchButton .fa-moon {
+    display: none;
+
+}
+
+#trigger-overlay {
+    outline: none;
+    border: none;
+    background: none;
+    text-align: center;
+    color: #fbfdfb;
+    font-size: 1.95em;
+    padding: 0 15px;
+}
+
+/* carousel  */
+.w3lhny-banner {
+    background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../Img/banner1.jpg);
+    height: 700px;
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: initial;
+    background-attachment: fixed;
+}
+
+.w3lhny-banner .banner-content {
+    display: grid;
+    align-items: center;
+    height: 100%;
+}
+
+.w3lhny-banner .bannerhny-info {
+    max-width: 600px;
+    text-align: left;
+}
+
+.w3lhny-banner .bannerhny-info h3 {
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.w3lhny-banner .bannerhny-info p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.btn-white {
+    padding: 12px 45px;
+    border: 2px solid #fff;
+    color: white;
+    transition: 0.5s;
+    line-height: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-white:hover {
+
+    background: white;
+    color: red;
+}
+
+
+
+.col-5 {
+
+
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.title-subhny {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: red;
+    display: block;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.header-title {
+    padding: 0 41px;
+}
+
+.title-w3l {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--font-color);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.col-7 {
+    padding-right: 12rem;
+}
+
+
+
+/* HomePage Features with photo  */
+.agent-block-image {
+    background: url(../Img/banner3.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.agent-block-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(16 15 19 / 46%);
+}
